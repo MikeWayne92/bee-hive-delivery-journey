@@ -19,7 +19,6 @@ const HoneycombGrid: React.FC<HoneycombGridProps> = ({ items, className = "" }) 
           key={item.id}
           className="hex-container perspective-container"
           style={{ 
-            animationDelay: `${index * 0.1}s`,
             opacity: 0,
             animation: 'hex-scale 0.5s ease-out forwards',
             animationDelay: `${index * 0.1}s`
